@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-l from-gray-200 to-gray-50;
+  font-family: "Nunito", sans-serif;
+}
+
+Scrollbar *::-webkit-scrollbar-track {
+  @apply border border-gray-800 bg-gray-100;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+  @apply bg-gray-800;
+}
+*::-webkit-scrollbar-thumb {
+  @apply bg-blue-400 rounded-full;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,7 @@
+.btn-list:hover .btn-text{
+    right: 0;
+}
+
+.btn-text{
+    right: -20vh;
+}
