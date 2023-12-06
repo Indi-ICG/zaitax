@@ -14,11 +14,12 @@ Scrollbar *::-webkit-scrollbar-track {
   @apply border border-gray-800 bg-gray-100;
 }
 *::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
   @apply bg-gray-800;
 }
 *::-webkit-scrollbar-thumb {
-  @apply bg-zblue rounded-full;
+  @apply rounded-full;
+  background: linear-gradient(60deg, #0282fe, #ff4a66);
 }
 
 .swiper {

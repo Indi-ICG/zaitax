@@ -5,8 +5,8 @@ const Navbar = () => {
   const items = ["about", "contract", "donations"];
 
   return (
-    <nav className="grid grid-cols-1 lg:grid-cols-2 font-light bg-gray-900 text-white">
-      <ul className="flex justify-center lg:justify-start items-center space-x-4 px-14 py-6">
+    <nav className="grid grid-cols-1 lg:grid-cols-3 font-light bg-gray-900 text-white">
+      <ul className="flex justify-center lg:justify-start items-center space-x-4 px-14 py-2 lg:py-4 col-span-2">
         <li className="text-zred text-3xl font-bold">
           <NavLink to="/">
             ZAIHELP-
@@ -32,7 +32,7 @@ const Navbar = () => {
         </>
       </ul>
 
-      <ul className="flex flex-wrap justify-center lg:justify-end items-center space-x-4 bg-gray-800 lg:bg-gray-900 px-12 py-6">
+      <ul className="flex flex-wrap justify-center lg:justify-end items-center space-x-4 bg-gray-800 lg:bg-gray-900 px-14 py-2 lg:py-4">
         <li>
           <NavLink
             to="/profile"
