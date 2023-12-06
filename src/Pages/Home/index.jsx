@@ -14,10 +14,9 @@ import {
   FingerPrintIcon,
 } from "@heroicons/react/24/outline";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 import "./styles.css";
 
 const components = {
@@ -123,7 +122,11 @@ function Home() {
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination, Navigation]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
