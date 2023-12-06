@@ -39,9 +39,9 @@ function IconCarousel({ item }) {
 
   return (
     <li className="btn-list flex justify-between relative">
-      <Icon className="bg-gray-900 p-2 h-10 w-10 md:h-14 sm:w-14 z-20"/>
+      <Icon className="bg-gray-900 p-2 h-8 w-8 md:h-12 sm:w-12 z-20"/>
       <a
-        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-10 md:h-14 absolute transition-all pl-[3vh] p-2 flex items-center capitalize"
+        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-8 md:h-12 absolute transition-all pl-[3vh] p-2 flex items-center capitalize"
         href={item.url}
       >
         {item.text}
@@ -149,7 +149,7 @@ function Home() {
         </div>
       </div>
 
-      <section className="px-10 md:px-14 py-10">
+      <section className="px-8 md:px-12 py-6">
         <h1 className="text-center text-gray-900 font-bold text-3xl">
           Te acompañaremos en todo el proceso, no estaras solo
         </h1>
