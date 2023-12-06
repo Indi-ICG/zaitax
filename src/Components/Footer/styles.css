@@ -1,0 +1,48 @@
+
+footer .redes-sociales a {
+  @apply block text-white text-center rounded-full;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  transition: 0.3s ease all;
+}
+
+footer .redes-sociales .x {
+  @apply bg-blue-500;
+}
+footer .redes-sociales .facebook {
+  @apply bg-blue-800;
+}
+footer .redes-sociales .instagram {
+  @apply bg-pink-600;
+}
+
+footer .redes-sociales a i {
+  @apply text-lg;
+  line-height: 60px;
+}
+
+footer .contenedor-icono:hover a {
+  animation: icono 0.5s ease;
+}
+
+@keyframes icono {
+  from {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+footer .author {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+footer .author a {
+  @apply text-zred;
+}
+footer .author a:hover {
+  text-decoration: underline;
+}

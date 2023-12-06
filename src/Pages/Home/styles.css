@@ -1,7 +1,7 @@
 .btn-list:hover .btn-text{
-    right: 0;
+    right: -38vh;
 }
 
 .btn-text{
-    right: -20vh;
+    right: 0;
 }
