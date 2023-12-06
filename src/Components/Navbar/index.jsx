@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav className="grid grid-cols-1 lg:grid-cols-2 font-light bg-gray-900 text-white">
-      <ul className="flex justify-center lg:justify-start items-center space-x-4 px-12 py-6">
+      <ul className="flex justify-center lg:justify-start items-center space-x-4 px-14 py-6">
         <li className="text-zred text-3xl font-bold">
           <NavLink to="/">
             ZAIHELP-

@@ -12,6 +12,7 @@ import {
   UserGroupIcon,
   TrophyIcon,
   FingerPrintIcon,
+  CalendarDaysIcon 
 } from "@heroicons/react/24/outline";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -30,6 +31,7 @@ const components = {
   UserGroupIcon,
   TrophyIcon,
   FingerPrintIcon,
+  CalendarDaysIcon 
 };
 
 function IconCarousel({ item }) {
@@ -37,9 +39,9 @@ function IconCarousel({ item }) {
 
   return (
     <li className="btn-list flex justify-between relative">
-      <Icon className={item.color + " p-2 h-10 w-10 sm:h-12 sm:w-12 z-20"} />
+      <Icon className="bg-gray-900 p-2 h-10 w-10 sm:h-14 sm:w-14 z-20"/>
       <a
-        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-10 sm:h-12 absolute transition-all pl-[3vh] p-2 flex items-center hover:text-gray-200 capitalize"
+        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-10 sm:h-14 absolute transition-all pl-[3vh] p-2 flex items-center capitalize"
         href={item.url}
       >
         {item.text}
@@ -53,61 +55,56 @@ function Home() {
     {
       icon: "FingerPrintIcon",
       text: "identificación",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "TrophyIcon",
       text: "carrera y profesión",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "BanknotesIcon",
       text: "empleo",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "LightBulbIcon",
-      text: "empezar un negocio",
-      color: "bg-gray-900",
+      text: "Negocio Independiente",
       url: "/about",
     },
     {
       icon: "IdentificationIcon",
       text: "obtener licencia profesional",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "ChatBubbleLeftRightIcon",
       text: "idioma",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "CheckBadgeIcon",
       text: "validación de titulos y credenciales",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "PresentationChartLineIcon",
       text: "contabilidad y finanzas para small business",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
-      icon: "UserGroupIcon",
+      icon: "CalendarDaysIcon",
       text: "cursos talleres y programas",
-      color: "bg-gray-900",
       url: "/about",
     },
     {
       icon: "AcademicCapIcon",
       text: "carrera universitaria",
-      color: "bg-gray-900",
+      url: "/about",
+    },
+    {
+      icon: "UserGroupIcon",
+      text: "trabajadores independientes",
       url: "/about",
     },
   ];
@@ -152,7 +149,7 @@ function Home() {
         </div>
       </div>
 
-      <section className="px-10 md:px-20 py-10">
+      <section className="px-10 md:px-14 py-10">
         <h1 className="text-center text-gray-900 font-bold text-3xl">
           Te acompañaremos en todo el proceso, no estaras solo
         </h1>

@@ -18,7 +18,7 @@ Scrollbar *::-webkit-scrollbar-track {
   @apply bg-gray-800;
 }
 *::-webkit-scrollbar-thumb {
-  @apply bg-blue-400 rounded-full;
+  @apply bg-zblue rounded-full;
 }
 
 .swiper {
