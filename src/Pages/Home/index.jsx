@@ -1,5 +1,6 @@
 import Layout from "../../Components/Layout";
 import Footer from "../../Components/Footer";
+import Banner from "../../Components/Banner";
 import {
   IdentificationIcon,
   ChatBubbleLeftRightIcon,
@@ -37,9 +38,9 @@ function IconCarousel({ item }) {
 
   return (
     <li className="btn-list flex justify-between relative">
-      <Icon className={item.color + " p-2 h-12 w-12 z-20"} />;
+      <Icon className={item.color + " p-2 h-10 w-10 sm:h-12 sm:w-12 z-20"} />
       <a
-        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-12 absolute transition-all pl-[3vh] p-2 flex items-center hover:text-gray-200 capitalize"
+        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-10 sm:h-12 absolute transition-all pl-[3vh] p-2 flex items-center hover:text-gray-200 capitalize"
         href={item.url}
       >
         {item.text}
@@ -49,8 +50,6 @@ function IconCarousel({ item }) {
 }
 
 function Home() {
-  let renderProducts;
-
   const menuCarousel = [
     {
       icon: "FingerPrintIcon",
@@ -128,16 +127,16 @@ function Home() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src="/Inmigracion.jpg" alt="" />
+            <img src="/Inmigracion.jpg" alt="Inmigracion" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/Negocio.jpg" alt="" />
+            <img src="/Negocio.jpg" alt="Negocio" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/Bienestar.jpg" alt="" />
+            <img src="/Bienestar.jpg" alt="Bienestar" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/Educacion.jpg" alt="" />
+            <img src="/Educacion.jpg" alt="Educacion" />
           </SwiperSlide>
         </Swiper>
 
@@ -151,20 +150,20 @@ function Home() {
       </div>
 
       <section className="px-10 md:px-20 py-10">
-        <h2 className="text-center font-bold text-xl">Nosotros</h2>
+        <h1 className="text-center text-gray-900 font-bold text-3xl">
+          Te acompañaremos en todo el proceso, no estaras solo
+        </h1>
 
         <p className="my-3">
-          En Zaitax ofrecemos servicios de Contabilidad e Impuestos , adaptados
-          a las necesidades específicas de cada negocio, ya sea un emprendedor
-          individual, una pequeña empresa o una corporación.
-        </p>
-        <p className="my-3">
-          Nuestros expertos están calificados y colaboran desde EEUU en
-          cualquier estado, contamos con tecnología para conectarnos con
-          Contadores altamente calificados desde Venezuela, España, México.
+          Te presentamos una plataforma tecnológica en el idioma español para
+          asistir al inmigrante e integrarlo en el sistema scio -económico de
+          los Estados Unidos, desde los diferentes niveles o tipo de inmigrante,
+          ya sea que se encuentre dentro o fuera del pais, proporcionando acceso
+          a los servivios legales para inmigrantes y poder desarrollarse en USA.
         </p>
       </section>
 
+      <Banner />
       <Footer />
     </Layout>
   );
