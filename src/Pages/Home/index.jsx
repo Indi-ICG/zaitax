@@ -89,7 +89,7 @@ function Home() {
     },
     {
       icon: "PresentationChartLineIcon",
-      text: "contabilidad y finanzas para small business",
+      text: "empezar un negocio",
       url: "/about",
     },
     {
