@@ -149,7 +149,7 @@ function Home() {
         </div>
       </div>
 
-      <section className="px-8 md:px-12 py-6">
+      <section className="px-8 md:px-12 py-12">
         <h1 className="text-center text-gray-900 font-bold text-3xl">
           Te acompañaremos en todo el proceso, no estaras solo
         </h1>
