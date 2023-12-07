@@ -39,9 +39,9 @@ function IconCarousel({ item }) {
 
   return (
     <li className="btn-list flex justify-between relative">
-      <Icon className="bg-gray-900 p-2 h-8 w-8 md:h-12 sm:w-12 z-20"/>
+      <Icon className="bg-gray-900 p-2 h-[5vh] w-[5vh] z-20"/>
       <a
-        className="bg-gradient-to-l from-zred to-zblue btn-text w-[40vh] h-8 md:h-12 absolute transition-all pl-[3vh] p-2 flex items-center capitalize"
+        className="btn-text bg-gradient-to-l from-zred to-zblue w-[30vh] md:w-[40vh] h-[5vh] absolute transition-all pl-[3vh] p-2 flex items-center capitalize text-sm md:text-base"
         href={item.url}
       >
         {item.text}
@@ -156,7 +156,7 @@ function Home() {
 
         <p className="my-3">
           Te presentamos una plataforma tecnológica en el idioma español para
-          asistir al inmigrante e integrarlo en el sistema scio -económico de
+          asistir al inmigrante e integrarlo en el sistema socio-económico de
           los Estados Unidos, desde los diferentes niveles o tipo de inmigrante,
           ya sea que se encuentre dentro o fuera del pais, proporcionando acceso
           a los servivios legales para inmigrantes y poder desarrollarse en USA.

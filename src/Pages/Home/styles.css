@@ -1,5 +1,5 @@
 .btn-list:hover .btn-text{
-    right: -38vh;
+    @apply -right-[28vh] md:-right-[38vh];
 }
 
 .btn-text{

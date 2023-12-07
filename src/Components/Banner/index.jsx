@@ -2,8 +2,8 @@ import "./styles.css";
 
 const Footer = () => {
   return (
-    <div className="banner bg-no-repeat bg-cover w-full px-8 md:px-12 py-12">
-      <h2 className="text-center font-bold text-3xl">Objetivo</h2>
+    <div className="banner bg-no-repeat bg-cover w-full px-8 py-24">
+      {/* <h2 className="text-center font-bold text-3xl">Objetivo</h2> */}
       <p className="my-3 text-center">
         Estamos diseñando un recurso de apoyo en español que facilite el proceso
         de los inmigrantes para integrarse y adaptarse al sistema
