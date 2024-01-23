@@ -55,57 +55,57 @@ function Home() {
     {
       icon: "FingerPrintIcon",
       text: "identificación",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "TrophyIcon",
       text: "carrera y profesión",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "BanknotesIcon",
       text: "empleo",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "LightBulbIcon",
       text: "Negocio Independiente",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "IdentificationIcon",
       text: "obtener licencia profesional",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "ChatBubbleLeftRightIcon",
       text: "idioma",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "CheckBadgeIcon",
       text: "validación de titulos y credenciales",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "PresentationChartLineIcon",
       text: "empezar un negocio",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "CalendarDaysIcon",
       text: "cursos talleres y programas",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "AcademicCapIcon",
       text: "carrera universitaria",
-      url: "/about",
+      url: "/",
     },
     {
       icon: "UserGroupIcon",
       text: "trabajadores independientes",
-      url: "/about",
+      url: "/",
     },
   ];
 

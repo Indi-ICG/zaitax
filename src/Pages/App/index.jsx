@@ -7,7 +7,7 @@ import Navbar from "../../Components/Navbar";
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: "/", element: <Home /> },
-    { path: "/*", element: <NotFound /> },
+    { path: "/*", element: <Home /> },
   ]);
   return routes;
 };

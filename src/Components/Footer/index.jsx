@@ -5,7 +5,7 @@ const Footer = () => {
       <footer className="grid grid-cols-3 gap-8 my-6">
         <div className="contenedor-icono">
           <a
-            href="http://x.com"
+            href="/"
             rel="noreferrer"
             className="x block text-white rounded-full w-14 h-14 p-1 text-center"
           >
@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="contenedor-icono">
           <a
-            href="http://www.facebook.com"
+            href="/"
             rel="noreferrer"
             className="facebook block text-white rounded-full w-14 h-14 p-1 text-center"
           >
@@ -25,7 +25,7 @@ const Footer = () => {
 
         <div className="contenedor-icono">
           <a
-            href="http://www.instagram.com"
+            href="/"
             rel="noreferrer"
             className="instagram block text-white rounded-full w-14 h-14 p-1 text-center"
           >
