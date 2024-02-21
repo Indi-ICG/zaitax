@@ -1,15 +1,31 @@
-$(document).ready(function() { 
-	$(".list-services a.tooltips").easyTooltip();
+$(document).ready(function () {
+  $(".list-services a.tooltips").easyTooltip();
 
-	// componentes
-	$("#header").load('header.html');
+  // components
+  $("#header").load("header.html", function () {
+    loadNavbar();
+  });
+  $("#footer").load("footer.html");
+});
 
-	switch (key) {
-		case value:
-			$("#nav-services").addClass("active")
-			break;
-	
-		default:
-			break;
-	}
-}); 
+function loadNavbar() {
+  var pathname = window.location.pathname;
+  console.log(pathname);
+
+  if (pathname.includes("services")) {
+    $("#nav-services").addClass("active");
+    console.log("services");
+  } else if (pathname.includes("company")) {
+    $("#nav-company").addClass("active");
+    console.log("company");
+  } else if (pathname.includes("contacts")) {
+    $("#nav-contacts").addClass("active");
+    console.log("contacts");
+  } else if (pathname.includes("clients")) {
+    $("#nav-clients").addClass("active");
+    console.log("clients");
+  } else {
+    $("#nav-home").addClass("active");
+    console.log("home");
+  }
+}
