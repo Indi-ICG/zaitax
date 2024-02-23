@@ -1,31 +1,65 @@
 $(document).ready(function () {
   $(".list-services a.tooltips").easyTooltip();
 
-  // components
+  // load components
+  $("#footer").load("footer.html");
   $("#header").load("header.html", function () {
     loadNavbar();
+    
+    $.getJSON("/lang.json", (json) => {
+      changeLanguage(json, true);
+
+      // Language button
+      $(".language").click(() => {
+        changeLanguage(json);
+      });
+    });
   });
-  $("#footer").load("footer.html");
 });
 
 function loadNavbar() {
+  // page indicator
   var pathname = window.location.pathname;
-  console.log(pathname);
 
   if (pathname.includes("services")) {
     $("#nav-services").addClass("active");
-    console.log("services");
   } else if (pathname.includes("company")) {
     $("#nav-company").addClass("active");
-    console.log("company");
   } else if (pathname.includes("contacts")) {
     $("#nav-contacts").addClass("active");
-    console.log("contacts");
   } else if (pathname.includes("clients")) {
     $("#nav-clients").addClass("active");
-    console.log("clients");
   } else {
     $("#nav-home").addClass("active");
-    console.log("home");
   }
+}
+
+function changeLanguage(json, langDefault) {
+  // translation
+  let langLocal = localStorage.getItem("language");
+
+  if (!!langDefault) {
+    if (langLocal == "ES") {
+      langNew = "ES";
+      $(".img-language").attr("src", "/images/spanish.png");
+    } else {
+      langNew = "EN";
+      $(".img-language").attr("src", "/images/english.png");
+    }
+  } else {
+    if (langLocal == "EN") {
+      langNew = "ES";
+      $(".img-language").attr("src", "/images/spanish.png");
+    } else {
+      langNew = "EN";
+      $(".img-language").attr("src", "/images/english.png");
+    }
+  }
+
+  $(".language span").text(langNew);
+  localStorage.setItem("language", langNew);
+
+  $(".lang").each(function () {
+    $(this).text(json[langNew][$(this).attr("key")]);
+  });
 }

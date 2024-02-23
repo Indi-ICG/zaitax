@@ -1,0 +1,36 @@
+{
+  "EN": {
+    "home": "Home",
+    "services": "Services",
+    "company": "About",
+    "contacts": "Contacts",
+    "clients": "Clients",
+
+    "tile-1": "Need tax help?",
+
+    "content-1": "In Zaitax we focus on efficiency. Our goal is to save you time and money. Our team of experienced consultants and professionals are driven to deliver fast and effective solutions",
+    "content-2": "We are focused on providing high quality services with the highest leves of custumer satisfaction and we will customer satisfaction and we will do everything we can to meet your expectations.",
+    "content-3": "We specialize providing accounting and tax services to companies that hire independent contractors and to individuals receiving 1099 income .",
+
+    "btn-1": "about company",
+    "link-1": "Need tax help?"
+  },
+  "ES": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "company": "Nosotros",
+    "contacts": "Contactos",
+    "clients": "Clientes",
+
+    "tile-1": "¿Necesita ayuda fiscal?",
+
+    "content-1": "En ZaItax Consulting apostamos por la eficiencia. Nuestro objetivo es ahorrarle tiempo y dinero. Nuestro equipo de consultores y profesionales experimentados está impulsado a brindar soluciones rápidas y efectivas.",
+    "content-2": "Estamos enfocados en brindar servicios de alta calidad con los más altos niveles de satisfacción del cliente y haremos todo lo posible para cumplir con sus expectativas.",
+    "content-3": "Nos especializamos en brindar servicios contables y tributarios a empresas que contratan contratistas independientes y a personas que reciben ingresos 1099.",
+
+    "btn-1": "acerca de nosotros",
+
+    "link-1": "¿Necesita ayuda fiscal?"
+
+  }
+}
