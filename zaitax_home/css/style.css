@@ -529,14 +529,10 @@ dl.contact {
 	color:#808080;
 }
 dl.contact span {
-	float:left;
-	width:51px;
 	color:#4d4d4d;
 	font-weight:normal;
 }
 dl span {
-	float:left;
-	width:96px;
 	font-weight:bold;
 }
 blockquote {
