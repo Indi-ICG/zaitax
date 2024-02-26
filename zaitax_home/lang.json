@@ -4,9 +4,11 @@
     "services": "Services",
     "company": "About",
     "contacts": "Contacts",
+    "contact": "contact",
     "clients": "Clients",
     "phone": "Phone",
     "solutions": "Solutions",
+    "navigation": "Navigation",
 
     "title-1": "Need tax help?",
     "title-2": "Tax, Finance & Accounting",
@@ -25,9 +27,11 @@
     "services": "Servicios",
     "company": "Nosotros",
     "contacts": "Contactos",
+    "contact": "Contacto",
     "clients": "Clientes",
     "phone": "Teléfono",
     "solutions": "Soluciones",
+    "navigation": "Indice",
 
     "title-1": "¿Necesita ayuda fiscal?",
     "title-2": "Impuestos, Finanzas y Contabilidad",

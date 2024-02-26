@@ -209,7 +209,7 @@ h1 a {
 	width: 60px;
 	position: absolute;
 	top: 20px;
-	left: 20px;
+	right: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -243,11 +243,11 @@ h1 a {
 	width:100%;
 	position:relative;
 	overflow:hidden;
-	padding-top:49px;
 	background:url(../images/slider-bg-tail2.gif) center top repeat-x #efefef;
 }
 #page1 .slider-wrapper {
 	background:url(../images/slider-bg-tail.gif) center top repeat-x #efefef;
+	background-size: auto 10px;
 	padding:0;
 }
 .slider {
@@ -258,7 +258,7 @@ h1 a {
 	left:50%;
 }
 #page1 .slider {
-	height:494px;
+	height:490px;
 }
 #page2 .slider {
 	background:url(../images/slider-img1.jpg) 0 -171px no-repeat;
