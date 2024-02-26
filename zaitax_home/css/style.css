@@ -426,25 +426,25 @@ h6 {
 .button a:hover {
 	color:#000;
 }
+.container-btn{
+	display: flex;
+	justify-content: end;
+}
 .button-2 {
 	margin: 10px 0;
-	display:inline-block;
-	padding-bottom:5px;
 	cursor:pointer;
-}
-.button-2 a {
 	display:inline-block;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:2em;
-	padding:4px 10px 4px 20px;
+	padding:5px 10px;
 	font-weight:bold;
 	text-transform:uppercase;
 	color:#fff;
 	background:url(../images/button2-tail.gif) 0 0 repeat-x #010101;
 	border-radius:22px;
-	cursor:pointer;
 	box-shadow: 0  17px 10px -10px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
 }
 .button-2 a strong {
 	display:inline-block;
@@ -621,12 +621,9 @@ footer {
 	float:left;
 	padding:0 10px 0 0;
 }
-.list-services li a {
+.list-services img {
 	display:block;
-	width:40px;
-	height:40px;
-	text-indent:-9999em;
-	background:url(../images/social-icons.png) 0 0 no-repeat;
+	width:50px;
 }
 .list-services li.item-2 a {
 	background-position:-50px 0;

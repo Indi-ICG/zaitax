@@ -41,18 +41,18 @@ function changeLanguage(json, langDefault) {
   if (!!langDefault) {
     if (langLocal == "ES") {
       langNew = "ES";
-      $(".img-language").attr("src", "/images/spanish.png");
+      $(".img-language").attr("src", "/images/language/spanish.png");
     } else {
       langNew = "EN";
-      $(".img-language").attr("src", "/images/english.png");
+      $(".img-language").attr("src", "/images/language/english.png");
     }
   } else {
     if (langLocal == "EN") {
       langNew = "ES";
-      $(".img-language").attr("src", "/images/spanish.png");
+      $(".img-language").attr("src", "/images/language/spanish.png");
     } else {
       langNew = "EN";
-      $(".img-language").attr("src", "/images/english.png");
+      $(".img-language").attr("src", "/images/language/english.png");
     }
   }
 
