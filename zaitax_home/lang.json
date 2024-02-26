@@ -10,14 +10,20 @@
     "solutions": "Solutions",
     "navigation": "Navigation",
 
-    "title-1": "Need tax help?",
-    "title-2": "Tax, Finance & Accounting",
+    "title-1": "Tax, Finance & Accounting",
+    "title-2": "Main Services",
+    "services-title-a": "Finance Assessment",
+    "services-title-b": "Expert Business Plans",
+    "services-title-c": "International Expansion Advice",
 
     "content-1": "In Zaitax we focus on efficiency. Our goal is to save you time and money. Our team of experienced consultants and professionals are driven to deliver fast and effective solutions",
     "content-2": "We are focused on providing high quality services with the highest leves of custumer satisfaction and we will customer satisfaction and we will do everything we can to meet your expectations.",
     "content-3": "We specialize providing accounting and tax services to companies that hire independent contractors and to individuals receiving 1099 income.",
-    "content-4": "Zaitax is your local income tax preparation franchise, offering quality tax preparation at an affordable price and always with enthusiasm!",    
+    "content-4": "Zaitax is your local income tax preparation franchise, offering quality tax preparation at an affordable price and always with enthusiasm!",
     "content-5": "We offer a wide range of accounting services including, but not limited to, accounting and payroll services, financial statement preparation, tax return preparation, and consultingservices for businesses and individuals.",
+    "services-content-a": "Sedut perspiciatis unde omnis iste natus error sit voluptatem dolormqe laudantium.",
+    "services-content-b": "Sedut perspiciatis unde omnis iste natus error sit voluptatem dolormqe laudantium.",
+    "services-content-c": "Sedut perspiciatis unde omnis iste natus error sit voluptatem dolormqe laudantium.",
 
     "btn-1": "about company",
     "link-1": "Need tax help?"
@@ -33,18 +39,23 @@
     "solutions": "Soluciones",
     "navigation": "Indice",
 
-    "title-1": "¿Necesita ayuda fiscal?",
-    "title-2": "Impuestos, Finanzas y Contabilidad",
+    "title-1": "Impuestos, Finanzas y Contabilidad",
+    "title-2": "Principales Servicios",
+    "services-title-a": "Representación ante el IRS para Deudas Fiscales",
+    "services-title-b": "Planeación Financiera y Fiscal",
+    "services-title-c": "Servicio de Nómina",
 
     "content-1": "En ZaItax Consulting apostamos por la eficiencia. Nuestro objetivo es ahorrarle tiempo y dinero. Nuestro equipo de consultores y profesionales experimentados está impulsado a brindar soluciones rápidas y efectivas.",
     "content-2": "Estamos enfocados en brindar servicios de alta calidad con los más altos niveles de satisfacción del cliente y haremos todo lo posible para cumplir con sus expectativas.",
     "content-3": "Nos especializamos en brindar servicios contables y tributarios a empresas que contratan contratistas independientes y a personas que reciben ingresos 1099.",
     "content-4": "Zaitax es su franquicia local de preparación de impuestos sobre la renta, que ofrece Preparación de impuestos de calidad a un precio asequible y siempre con ¡entusiasmo!",
     "content-5": "Ofrecemos una amplia gama de servicios de contabilidad que incluyen, entre otros, limitados a, servicios de contabilidad y nómina, estados financieros preparación, preparación de declaraciones de impuestos y servicios de consultoría para empresas y particulares.",
+    "services-content-a": "Si enfrentas problemas con deudas fiscales, nuestro equipo de expertos en representación ante el IRS está aquí para ayudarte. Nos ocupamos de negociar con el IRS en tu nombre y encontrar soluciones efectivas para resolver tus problemas fiscales.",
+    "services-content-b": "Optimiza tus recursos financieros con nuestra asesoría en planeación financiera y fiscal. Desarrollamos estrategias personalizadas para maximizar tus ahorros fiscales y garantizar un futuro financiero sólido.",
+    "services-content-c": "Simplifica la administración de tu nómina con nuestro servicio integral. Desde el cálculo de salarios hasta la presentación de impuestos sobre la nómina, estamos aquí para garantizar que tu proceso de nómina sea eficiente y cumpla con todas las normativas.",
 
     "btn-1": "acerca de nosotros",
 
     "link-1": "¿Necesita ayuda fiscal?"
-
   }
 }
