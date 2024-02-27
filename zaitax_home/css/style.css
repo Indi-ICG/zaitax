@@ -280,23 +280,19 @@ h1 a {
 }
 .slider {
   width: 1264px;
-  height: 290px;
+  height: 490px;
+  /* height: 290px; */
   margin-left: -632px;
   position: relative;
   left: 50%;
   overflow: hidden;
 }
-#page1 .slider,
-#page3 .slider,
-#page2 .slider {
-  height: 490px;
-}
 #page2 .slider {
   background: url(../images/about.jpeg) center no-repeat;
 }
-#page4 .slider,
 #page5 .slider {
-  background: url(../images/slider-img3.jpg) 0 -183px no-repeat;
+  background: url(../images/services.jpeg) center -250px no-repeat;
+  background-size: cover;
 }
 .slider-video {
   width: 100%;
