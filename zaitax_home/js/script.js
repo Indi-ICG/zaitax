@@ -2,17 +2,19 @@ $(document).ready(function () {
   $(".list-services a.tooltips").easyTooltip();
 
   // load components
-  $("#footer").load("footer.html");
   $("#header").load("header.html", function () {
     loadNavbar();
-    
-    $.getJSON("/lang.json", (json) => {
-      changeLanguage(json, true);
 
-      // Language button
-      $(".language").click(() => {
-        changeLanguage(json);
-      });
+    // Language button
+    $("#btn-english").click(() => {
+      changeLanguage("EN");
+    });
+    $("#btn-spanish").click(() => {
+      changeLanguage("ES");
+    });
+
+    $("#footer").load("footer.html", function () {
+      changeLanguage();
     });
   });
 });
@@ -34,32 +36,19 @@ function loadNavbar() {
   }
 }
 
-function changeLanguage(json, langDefault) {
+function changeLanguage(langNew) {
   // translation
-  let langLocal = localStorage.getItem("language");
 
-  if (!!langDefault) {
-    if (langLocal == "ES") {
-      langNew = "ES";
-      $(".img-language").attr("src", "/images/language/spanish.png");
-    } else {
-      langNew = "EN";
-      $(".img-language").attr("src", "/images/language/english.png");
-    }
-  } else {
-    if (langLocal == "EN") {
-      langNew = "ES";
-      $(".img-language").attr("src", "/images/language/spanish.png");
-    } else {
-      langNew = "EN";
-      $(".img-language").attr("src", "/images/language/english.png");
-    }
+  if (langNew == null) {
+    let langLocal = localStorage.getItem("language");
+
+    langNew = langLocal == null ? "EN" : langLocal;
   }
 
-  $(".language span").text(langNew);
-  localStorage.setItem("language", langNew);
-
-  $(".lang").each(function () {
-    $(this).text(json[langNew][$(this).attr("key")]);
+  $.getJSON("/lang.json", (json) => {
+    localStorage.setItem("language", langNew);
+    $(".lang").each(function () {
+      $(this).text(json[langNew][$(this).attr("key")]);
+    });
   });
 }
