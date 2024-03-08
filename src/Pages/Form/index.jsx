@@ -16,7 +16,7 @@ const components = {
 function Form() {
   return (
     <Layout>
-      <section className="bg-form w-full flex flex-col justify-center items-center">
+      <section className="bg-form h-[95vh] w-full flex flex-col justify-center items-center">
         <h1 className="text-center  font-bold text-3xl my-12">
           Formulario Zaitax
         </h1>
@@ -25,10 +25,10 @@ function Form() {
           <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
             <div>
               <div className="space-y-6 sm:space-y-5">
-                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center sm:pt-5">
                   <label
                     htmlFor="empresa"
-                    className="block text-sm font-medium sm:mt-px sm:pt-2 text-white"
+                    className="block font-medium sm:mt-px sm:pt-2 text-white"
                   >
                     Empresa
                   </label>
@@ -38,15 +38,15 @@ function Form() {
                       name="empresa"
                       id="empresa"
                       autoComplete="given-name"
-                      className="max-w-lg block w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                      className="max-w-lg block w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300  px-2 py-1 rounded-md"
                     />
                   </div>
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center sm:pt-5">
                   <label
                     htmlFor="nombre"
-                    className="block text-sm font-medium sm:mt-px sm:pt-2 text-white"
+                    className="block font-medium sm:mt-px sm:pt-2 text-white"
                   >
                     Nombre
                   </label>
@@ -56,15 +56,15 @@ function Form() {
                       name="nombre"
                       id="nombre"
                       autoComplete="family-name"
-                      className="max-w-lg block w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                      className="max-w-lg block w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300  px-2 py-1 rounded-md"
                     />
                   </div>
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center sm:pt-5">
                   <label
                     htmlFor="telefono"
-                    className="block text-sm font-medium sm:mt-px sm:pt-2 text-white"
+                    className="block font-medium sm:mt-px sm:pt-2 text-white"
                   >
                     Teléfono
                   </label>
@@ -74,14 +74,14 @@ function Form() {
                       name="telefono"
                       type="text"
                       autoComplete="telefono"
-                      className="block max-w-lg w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      className="block max-w-lg w-full shadow-sm sm:text-sm border-gray-300  px-2 py-1 rounded-md"
                     />
                   </div>
                 </div>
-                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center sm:pt-5">
                   <label
                     htmlFor="correo"
-                    className="block text-sm font-medium sm:mt-px sm:pt-2 text-white"
+                    className="block font-medium sm:mt-px sm:pt-2 text-white"
                   >
                     Correo E.
                   </label>
@@ -91,15 +91,15 @@ function Form() {
                       name="correo"
                       type="ermail"
                       autoComplete="correo"
-                      className="block max-w-lg w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      className="block max-w-lg w-full shadow-sm sm:text-sm border-gray-300  px-2 py-1 rounded-md"
                     />
                   </div>
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-center sm:pt-5">
                   <label
                     htmlFor="servicio"
-                    className="block text-sm font-medium sm:mt-px sm:pt-2 text-white"
+                    className="block font-medium sm:mt-px sm:pt-2 text-white"
                   >
                     Servicio Requerido
                   </label>
@@ -108,7 +108,7 @@ function Form() {
                       id="servicio"
                       name="servicio"
                       autoComplete="servicio"
-                      className="max-w-lg block w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                      className="max-w-lg block w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300  px-2 py-1 rounded-md"
                     >
                       <option>United States</option>
                       <option>Canada</option>
@@ -129,10 +129,10 @@ function Form() {
                           id="comments"
                           name="comments"
                           type="checkbox"
-                          className="h-4 w-4 border-gray-300 rounded"
+                          className="h-4 w-4 border-gray-300  px-2 py-1 rounded"
                         />
                       </div>
-                      <div className="ml-3 text-sm">
+                      <div className="ml-3">
                         <label
                           htmlFor="comments"
                           className="font-medium text-white"
@@ -155,7 +155,7 @@ function Form() {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-zred focus:outline-none focus:ring-2 focus:ring-offset-2"
+                className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-white bg-zred focus:outline-none focus:ring-2 focus:ring-offset-2"
               >
                 Enviar
               </button>
