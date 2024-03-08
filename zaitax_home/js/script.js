@@ -29,8 +29,6 @@ function loadNavbar() {
     $("#nav-company").addClass("active");
   } else if (pathname.includes("contacts")) {
     $("#nav-contacts").addClass("active");
-  } else if (pathname.includes("clients")) {
-    $("#nav-clients").addClass("active");
   } else {
     $("#nav-home").addClass("active");
   }
@@ -42,7 +40,7 @@ function changeLanguage(langNew) {
   if (langNew == null) {
     let langLocal = localStorage.getItem("language");
 
-    langNew = langLocal == null ? "EN" : langLocal;
+    langNew = langLocal == null ? "ES" : langLocal;
   }
 
   $.getJSON("/lang.json", (json) => {
