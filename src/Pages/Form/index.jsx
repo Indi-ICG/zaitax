@@ -18,7 +18,7 @@ function Form() {
     <Layout>
       <section className="bg-form h-[95vh] w-full flex flex-col justify-center items-center">
         <h1 className="text-center  font-bold text-3xl my-12">
-          Formulario Zaitax
+          Registrate
         </h1>
 
         <form className="p-12 text-gray-900">
@@ -153,6 +153,13 @@ function Form() {
 
           <div className="pt-5">
             <div className="flex justify-end">
+           
+              <a
+              href="/"
+                className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-white bg-zblue focus:outline-none focus:ring-2 focus:ring-offset-2"
+              >
+                Volver
+              </a>
               <button
                 type="submit"
                 className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-white bg-zred focus:outline-none focus:ring-2 focus:ring-offset-2"
