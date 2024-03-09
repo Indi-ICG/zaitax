@@ -17,9 +17,7 @@ function Form() {
   return (
     <Layout>
       <section className="bg-form h-[95vh] w-full flex flex-col justify-center items-center">
-        <h1 className="text-center  font-bold text-3xl my-12">
-          Registrate
-        </h1>
+        <h1 className="text-center  font-bold text-3xl my-12">Registrate</h1>
 
         <form className="p-12 text-gray-900">
           <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
@@ -153,9 +151,8 @@ function Form() {
 
           <div className="pt-5">
             <div className="flex justify-end">
-           
               <a
-              href="/"
+                href="/"
                 className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-white bg-zblue focus:outline-none focus:ring-2 focus:ring-offset-2"
               >
                 Volver
